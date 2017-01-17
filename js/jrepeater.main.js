@@ -3,6 +3,7 @@ jQuery( document ).ready( function() {
 	//Clone
 	var jrepeaterView = jQuery( '#jrepeater-view' );
 	jrepeaterView.removeAttr( 'id' );
+	jrepeaterView.addClass( 'jrepeaterClone' );
 	
 	//Item
 	var jrepeaterItem = '<div class="jrepeater-view-item">' + jrepeaterView.html() + '</div>';
@@ -11,7 +12,7 @@ jQuery( document ).ready( function() {
 	var jconfirm = jQuery( 'form.jrepeater' ).data( 'jconfirm' );
 	
 	//Clear
-	jQuery( '#jrepeater-content' ).html( '' );
+	jQuery( '#jrepeater-content .jrepeaterClone' ).remove();
 	
 	//Index Input
 	function jrepeaterUpdateItem(){
