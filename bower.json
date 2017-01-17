@@ -1,0 +1,25 @@
+{
+  "name": "jRepeater",
+  "homepage": "https://github.com/chrwdev/jRepeater",
+  "authors": [
+    "Christian Amorelli <christian.amorelli@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "keywords": [
+    "bootstrap",
+    "jquery",
+    "repeater"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
